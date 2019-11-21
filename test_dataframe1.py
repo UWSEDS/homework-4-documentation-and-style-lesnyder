@@ -1,4 +1,4 @@
-"""test for homework3"""
+"""This file improves the homework3 tests to ensure that they are PEP8 compliant"""
 
 import pandas as pd
 
@@ -8,7 +8,7 @@ DF = pd.read_csv(LINK)
 
 """This test  all columns have values of the corect type"""
 def test_columns(types):
-	"""Check that the column names are the same type as rows"""
+    """Check that the column names are the same type as rows"""
     assert list(DF.dtypes.values) == types
 
 """Check for nan values."""
